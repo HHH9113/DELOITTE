@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login form</title>
+<script>
+function change()
+
+{
+	var my1 = document.getElementById("myspan1");
+	var errormessage =document.getElementById("mydiv");
+	my1.innerHTML = "<font color=blue>Welcome</font>"
+	errormessage.innerText = "Some error occured";
+	}
+	function validate() {
+		var uname = document.getElementById("username").value;
+		var pass = document.getElementById("password").value;
+		var uname = document.forms[0].elements[0].value;
+		var uname = document.forms[0].elements["loginform"].value;  // different ways to retrieve data 
+		var uname = document.forms[0].elements["username"].value;
+	
+		var uname = document.forms[0].username.value;
+
+		var cpass = document.getElementById("confirmpassword").value;
+		if (uname.length == 0) {
+			alert("Please enter ur name");
+			return false;
+		}
+
+		else if (pass.length < 6) {
+			alert("Please enter ur password or length has to be greater than 6");
+			return false;
+		} else if (pass == cpass) {
+			alert("Welcome :" + uname)
+		} else {
+			alert("Password and confirm password should be same");
+			return false;
+		}
+
+	}
+</script>
+</head>
+<body>
+<span id="myspan1">SPAN1</span>
+<div id="mydiv">DIV</div>
+	<form action="Home.html" onsubmit=" return validate()" name="loginform">
+
+		<table cellsapcing="10" cellpadding="10" align="center" border="1">
+			
+			 <tr>
+				<td>USERNAME:</td>
+				<td><input type="text" name="username" id="username"></td>
+				<td>
+			</tr>
+			<tr>
+				<td>PASSWORD:</td>
+				<td><input type="password" name="password" id="password"></td>
+			</tr>
+			<tr>
+				<td>CONFIRM PASSWORD:</td>
+				<td><input type="password" name="confirmpassword"
+					id="confirmpassword"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="GO" formaction="Home.html"></td>    
+				<td><input type="reset" value="CLEAR"></td>
+				
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

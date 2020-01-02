@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form>
+		<table cellspacing="10" cellpadding="10" align="center">
+			<caption>Patient Form</caption>
+			<tr>
+				<th>Patient Name</th>
+
+
+				<td><input type="text" name="patientName" id="patientName"></td>
+			</tr>
+			<tr>
+				<td>Patient Address</td>
+
+
+				<td><textarea name="patientAddress" id="patientAddress"
+						rows="5" cols="15"></textarea></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gender" id="male">Male <input
+					type="radio" name="gender" id="female">Female<input
+					type="radio" name="gender" id="other">Other</td>
+			</tr>
+			<tr>
+				<td>Blood Group</td>
+				<td><input type="radio" name="bg" id="bg1" value="B+">B+
+					<input type="radio" name="bg" id="bg2" value=A+">A+ <input
+					type="radio" name="bg" id="bg3" value="O+">O+</td>
+			</tr>
+			<tr>
+				<td>Notification</td>
+				<td><input type="checkbox" name="notification"
+					id="notification" value="byEmail">By Email <input
+					type="checkbox" name="notification" id="notification"
+					value="byMobile">By Mobile <input type="checkbox"
+					name="notification" id="notification" value="byWhatsapp">By
+					Whatsapp</td>
+			</tr>
+			<tr>
+				<td>Department</td>
+				<td><select name="department" id="department">
+						<option value="Neuro">Neuro</option>
+						<option value="Cardio">Cardio</option>
+						<option value="ENT">ENT</option>
+						<option value="Gynae">Gynae</option>
+				</select></td>
+			</tr>
+
+
+			<tr>
+				<td align="center"><input type="submit" value="Save"></td>
+				<td align="center"><input type="reset" value="Clear"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

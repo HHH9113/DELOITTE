@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+total=0;
+function sum()
+{
+	y=20;
+	var x=10;
+	total=x+y;
+	}
+	function display()
+	{
+		sum();
+		alert(total);  //if we dont call sum function then total=0 otherwise 30
+		alert(y);      //error if we dont call sum() as it is global +local 
+		alert(x);      // we cant access in any case as var is used it is purely local
+	}
+	
+	function stringdemo()
+	{  
+		document.write("h".bold() + "2".sub().bold().blink() + "o".bold());
+		document.write("</br>");
+		document.write("M".bold() + "C".bold() + "2".sup().bold());
+		
+	}
+	function stringdemo2()
+	{
+		var str =prompt("Enter your name:" , "Himanshu " );
+		var value = confirm("Do you want to continue");
+		if(value==false)
+			{
+			document.write("Thanks" + " " + str);
+			}
+		else
+			{
+		var st = str.split(' ').slice(-1).join(' ');
+		var str1 = str.charAt(0);
+		var str2 = str1.concat(' ',st);
+       document.write("Welcome , "  + " "  +str2 );	
+	}
+	}
+	stringdemo2();
+	//display(); 
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

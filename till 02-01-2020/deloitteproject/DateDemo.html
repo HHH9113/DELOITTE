@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+var today = new Date();
+var lastdate = new Date();
+today.setFullYear(2020,0,15);
+var billamount =prompt("Enter Bill Amount :");
+if(lastdate>today)
+	{
+	var day = 1000*60*60*24;
+	x=(  lastdate - today)/day;
+	var totalbill = parseInt(billamount) + parseInt(x)*parseInt(50);
+	alert(" Your Total Bill Amount is: "+ totalbill);
+		} 
+else
+	{
+	
+	alert("Your Total Bill Amount is: " + billamount);
+	}
+//var today = new date();
+//var day = today.getDate();
+//var daysLate = day-15;
+//var fine  = daysLate *50;
+
+</script>
+</body>
+</html>
