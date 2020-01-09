@@ -7,18 +7,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="Ans3">
+<form action="Answer3">
 <ol>
 <li>
 What does SQL stand for?
 </li>
 </ol>
 <ol>
-<li > <input type="radio" name="option3" value="Abstraction" >Structured Query Language</br>
- <input type="radio" name="option3" value="Encapsulation" >Structured Questioning Language</br>
- <input type="radio" name="option3" value="Polymorphism" >Structured Language</br>
- <input type="radio" name="option3" value="None" >Database Query Language</br>
- </li>
+ <input type="radio" name="option3" value="A" >Structured Query Language</br>
+ <input type="radio" name="option3" value="B" >Structured Questioning Language</br>
+ <input type="radio" name="option3" value="C" >Structured Language</br>
+ <input type="radio" name="option3" value="D" >Database Query Language</br>
+
 </ol>
 
 </ol>

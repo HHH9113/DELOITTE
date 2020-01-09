@@ -1,17 +1,24 @@
+import java.util.Date;
+
+import finance.Salary;
 public class Welcome {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("welcome");
-		Wish w = new Wish();
-		Compliment c= new Compliment();
-		Bye b = new Bye();
-		Lunch l=new Lunch();
+		System.out.println("welcome in eclipse IDE");
+		//Apple apple=new Apple
+		Apple.eatApple();
+		//Ball ball = new Ball();
+		Ball.playBall();
+		//Thanks thanks = new Thanks();
+		Thanks.sayThanks();
+		//Bye bye= new Bye();
+		Bye.sayBye();
+		//Salary s=new Salary();
+		int result=Salary.calculateSalary(65000,3800);
+		System.out.println(result);
 		
-		salary.Finance sf = new salary.Finance();
-		
-		w.wishing();
-		c.justsay();
-		l.havesome();
-		b.saying();	
-}}
+		Date d= new Date();
+		System.out.println("current date is :" +d);
+	}
+	
+}

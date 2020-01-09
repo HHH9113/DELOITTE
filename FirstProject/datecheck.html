@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+
+
+
+
+</head>
+<body>
+<script>
+
+var today = new Date();
+var lastdate = new Date();
+
+
+
+lastdate.setFullYear(2020,0,1);
+if(lastdate>today)
+	
+	{
+	
+	var day=1000*60*60*24;
+	x=(lastdate-today)/day;
+	alert("number of days left" + x);
+	
+	
+	} else
+		{
+		alert("times up");
+		}
+</script>
+</body>
+</html>

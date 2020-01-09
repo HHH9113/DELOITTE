@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+
+function validate()
+{
+	
+	alert("hi")
+	
+	
+	
+	
+	var customerId=document.getElementById("customerId").value;
+
+	
+	var customerName=document.getElementById("customerName").value;
+
+	
+	var customerAddress=document.getElementById("customerAddress").value;
+
+	
+	var billAmount=document.getElementById("billAmount").value;
+	
+	
+	
+
+	var billAmonut=document.getElementById("customerIdErrMsg").value;
+
+	var billAmonut=document.getElementById("customerNameErrMsg").value;
+
+	var billAmonut=document.getElementById("customerAddressErrMsg").value;
+
+	var billAmonut=document.getElementById("billAmountErrMsg").value;
+	
+	
+	
+	
+	
+	
+	customerIdErrMsg.innerHTML="";
+
+	customerNameErrMsg.innerHTML="";
+	customerAddressErrMsg.innerHTML="";
+	customerbillAmountErrMsg.innerHTML="";
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+
+
+</script>
+<body>
+	<form>
+
+		<table cellspacing="10" cellpadding="10" align="center" border="1">
+			<caption>
+				<h2>Customer Form</h2>
+			</caption>
+			<tr>
+				<td>Customer Id</td>
+				<td><input type="text" name="customerId" id="customerId"></td>
+				<td><span id="customerIdErrMsg"></span></td>
+			</tr>
+			<tr>
+				<td>Customer Name</td>
+				<td><input type="text" name="customerName" id="customerName"></td>
+				<td><span id="customerNameErrMsg"></span></td>
+			</tr>
+			<tr>
+				<td>Customer Address</td>
+				<td><input type="text" name="customerAddress"
+					id="customerAddress"></td>
+				<td><span id="customerAddressErrMsg"></span></td>
+			</tr>
+			<tr>
+				<td>Bill Amount</td>
+				<td><input type="text" name="billAmount" id="billAmount"></td>
+				<td><span id="billAmountErrMsg"></span></td>
+			</tr>
+			<tr>
+				<td align="center"><input type="button" value="Save" onclick="validate()"></td>
+				<td align="center"><input type="reset" value="Clear"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

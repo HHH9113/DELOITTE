@@ -7,18 +7,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="Ans1">
+<form action="Answer1">
 <%out.println("WELCOME : "   + "  " + session.getAttribute("username"));%>
 <ol>
 <li>
 Inside which HTML element do we put the JavaScript?</li>
 </ol>
 <ol>
-<li > <input type="radio" name="option" value="Super" >Scrpit Tag </br>
- <input type="radio" name="option" value="This" >Scripting Tag</br>
- <input type="radio" name="option" value="Extent" >Java Script Tag</br>
- <input type="radio" name="option" value="Extends" >JS Tag</br>
- </li>
+<input type="radio" name="option" value="A" >Scrpit Tag </br>
+ <input type="radio" name="option" value="B" >Scripting Tag</br>
+ <input type="radio" name="option" value="C" >Java Script Tag</br>
+ <input type="radio" name="option" value="D" >JS Tag</br>
+
 </ol>
 
 </ol>

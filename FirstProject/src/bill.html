@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+
+
+
+
+
+
+
+
+var today = new Date();
+var lastdate = new Date();
+
+
+
+
+
+	var a=prompt("eNTER bill amount name","");
+//	var b=prompt("eNTER last name","");
+
+
+
+lastdate.setFullYear(2019,11,15);
+if(lastdate<today)
+	
+	{
+	
+	
+	
+	
+	var day=1000*60*60*24;
+var	x= Math.round(parseInt(a)+((today-lastdate)/day)*50);
+	
+	
+	alert("total bill" + x);
+	
+	
+	} else
+		{
+
+		alert("total bill" + x);
+		
+			}
+</script>
+</body>
+</html>

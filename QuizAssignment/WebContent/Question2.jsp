@@ -7,17 +7,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="Ans2">
+<form action="Answer2">
 <ol>
 <li>
 What does HTML stand for?</li>
 </ol>
 <ol>
-<li > <input type="radio" name="option2" value="Static" >Home Tool Markup language</br>
- <input type="radio" name="option2" value="Constant" >Hyper Text link Language </br>
- <input type="radio" name="option2" value="Extent" >Hyperlinks</br>
- <input type="radio" name="option2" value="Final" >Hyper Text Markup Language</br>
- </li>
+ <input type="radio" name="option2" value="A" >Home Tool Markup language</br>
+ <input type="radio" name="option2" value="B" >Hyper Text link Language </br>
+ <input type="radio" name="option2" value="C" >Hyperlinks</br>
+ <input type="radio" name="option2" value="D" >Hyper Text Markup Language</br>
+
 </ol>
 
 </ol>

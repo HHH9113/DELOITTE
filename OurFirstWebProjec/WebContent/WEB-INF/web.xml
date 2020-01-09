@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>OurFirstWebProjec</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Welcome</display-name>
+    <servlet-name>Welcome</servlet-name>
+    <servlet-class>com.Welcome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Welcome</servlet-name>
+    <url-pattern>/Welcome</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CustomerServlet</display-name>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>com.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/CustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Demoservlet</display-name>
+    <servlet-name>Demoservlet</servlet-name>
+    <servlet-class>com.Demoservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Demoservlet</servlet-name>
+    <url-pattern>/Demoservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CustomerServlet1</display-name>
+    <servlet-name>CustomerServlet1</servlet-name>
+    <servlet-class>com.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerServlet1</servlet-name>
+    <url-pattern>/CustomerServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ConnectServlet</display-name>
+    <servlet-name>ConnectServlet</servlet-name>
+    <servlet-class>com.ConnectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConnectServlet</servlet-name>
+    <url-pattern>/ConnectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ConnectServlet1</display-name>
+    <servlet-name>ConnectServlet1</servlet-name>
+    <servlet-class>com.ConnectServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConnectServlet1</servlet-name>
+    <url-pattern>/ConnectServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ConnectServlet2</display-name>
+    <servlet-name>ConnectServlet2</servlet-name>
+    <servlet-class>com.ConnectServlet2</servlet-class>
+    <init-param>
+      <description></description>
+      <param-name>username</param-name>
+      <param-value>welcome</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>companyname</param-name>
+      <param-value>deloitte</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConnectServlet2</servlet-name>
+    <url-pattern>/ConnectServlet2</url-pattern>
+    <url-pattern>/cs</url-pattern>
+    <url-pattern>*.cs</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <context-param>
+  <param-name>itemName</param-name>
+  
+  <param-value>Lakme</param-value>
+  
+  </context-param>
+  
+  
+  
+  
+</web-app>

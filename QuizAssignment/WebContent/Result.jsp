@@ -22,9 +22,9 @@ String option3 =(String)session.getAttribute("option3");%>
 <th>MARKS</th>
 <tr>
 <td><%=option %></td>
-<td>Super</td>
+<td>A</td>
 <td>
-<%if(option.equals("Super"))
+<%if(option.equals("A"))
 {
 	sum+=10;
 	out.println("10");
@@ -39,9 +39,9 @@ else
 	</tr>
 <tr>
 <td><%=option2 %></td>
-<td>Final</td>
+<td>D</td>
 <td>
-<%if(option2.equals("Final"))
+<%if(option2.equals("D"))
 {
 	sum+=10;
 	out.println("10");
@@ -55,9 +55,9 @@ else
 </td></tr>
 <tr>
 <td><%=option3 %></td>
-<td>Abstraction</td>
+<td>A</td>
 <td>
-<%if(option3.equals("Abstraction"))
+<%if(option3.equals("A"))
 {
 	sum+=10;
 	out.println("10");

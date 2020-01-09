@@ -1,7 +1,8 @@
 
 public class Bye {
-void saying()
-{
-System.out.println("Good Bye dear....");	
-}
+
+	public static void sayBye() {
+		System.out.println("bye bye");
+	}
+
 }
