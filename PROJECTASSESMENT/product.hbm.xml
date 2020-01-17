@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+
+<hibernate-mapping>
+
+
+
+	<class name="com.Product" table="hr.Product" >
+
+	
+
+		<id name="pId" type="int" column="pId">
+
+			<generator class="assigned"/>
+
+		</id>
+
+
+
+		<property name="pNAME" column="pNAME" />
+
+<property name="price" column="pADDRESS"/>
+
+<property name="QOA" column="QOA"/>
+	
+
+
+
+	</class>
+
+</hibernate-mapping>
